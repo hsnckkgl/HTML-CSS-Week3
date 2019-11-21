@@ -1,0 +1,50 @@
+.logo {
+    margin: 0 0 0 50%;
+}
+.navigation {
+    margin: 10px;
+}
+.navbar {
+    background-color: lightblue;
+    position: relative;
+    display: inline-flex;
+    flex-wrap: wrap;
+    min-height: 70px;
+    padding: 15px;
+    margin: 10px;
+    list-style: none;
+}
+.container1 {
+    background-image: url(images/minimumlonen-.jpg);
+    min-height: 300px;
+}
+ul.container1 {
+    background-color: white;
+}
+.container2 {
+
+}
+.cont2 {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+}
+.spot1 {
+    display: flex;
+    list-style: none;
+}
+.spotlight {
+    display: flex;
+}
+.footer1 {
+    list-style: none;
+}
+.footer2 {
+    list-style: none;
+}
+footer {
+    display: flex;
+}
+.nav2 {
+    display: flex;
+}
