@@ -1,50 +1,80 @@
 .logo {
     margin: 0 0 0 50%;
-}
-.navigation {
-    margin: 10px;
+    height: 100px;
 }
 .navbar {
-    background-color: lightblue;
+    background-color: blue;
     position: relative;
-    display: inline-flex;
-    flex-wrap: wrap;
-    min-height: 70px;
-    padding: 15px;
-    margin: 10px;
+    display: grid;
+    font-size: 20px;
+    font-weight: bold;
+    min-height: 50px;
     list-style: none;
+    grid-template-columns: auto auto auto auto auto auto;
+    
 }
+a:link {
+    text-decoration: none;
+  }
 .container1 {
     background-image: url(images/minimumlonen-.jpg);
     min-height: 300px;
-}
-ul.container1 {
-    background-color: white;
-}
-.container2 {
 
 }
+.container2 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: 20px;
+    font-size: 20px;
+}
 .cont2 {
-    display: flex;
+    display: grid;
     list-style: none;
-    flex-wrap: wrap;
+    flex-wrap: none;
+    max-width: 300px;
 }
 .spot1 {
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
     list-style: none;
+    font-size: 20px;
 }
 .spotlight {
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
 }
 .footer1 {
     list-style: none;
+    margin-left: 700px;
+    
 }
 .footer2 {
     list-style: none;
+
 }
 footer {
     display: flex;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    max-height: fit-content;
 }
 .nav2 {
     display: flex;
 }
+h3 {
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blue;
+}
+li {
+    padding: 20px;
+    list-style: none;
+    
+}
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+      
+    }
+  }
