@@ -5,7 +5,9 @@
 .navbar {
     background-color: blue;
     position: relative;
-    display: grid;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
     font-size: 20px;
     font-weight: bold;
     min-height: 50px;
@@ -29,26 +31,50 @@ a:link {
    margin-top: 20px;
 }
 .container2 {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
     margin: 20px;
     font-size: 20px;
 }
-.cont2 {
-    display: grid;
+.building, .economy, .education, .family, .government, .international, .justice, .migration, .democracy, .coorperation, .security, .travel {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
     list-style: none;
-    flex-wrap: none;
+    flex-wrap: wrap;
     max-width: 300px;
 }
 .spot1 {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
     list-style: none;
     font-size: 20px;
+    max-width: 300px;
+}
+.spot2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    list-style: none;
+    font-size: 20px;
+    max-width: 300px;
+}
+.spot3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    list-style: none;
+    font-size: 20px;
+    max-width: 300px;
 }
 .spotlight {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    
 }
 .footer1 {
     list-style: none;
@@ -61,6 +87,7 @@ a:link {
 }
 footer {
     display: flex;
+    justify-content: flex-end;
     background-color: blue;
     color: white;
     font-size: 20px;
@@ -68,6 +95,7 @@ footer {
 }
 .nav2 {
     display: flex;
+    justify-content: flex-end;
 }
 h3 {
     font-weight: bold;
